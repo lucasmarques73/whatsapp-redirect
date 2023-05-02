@@ -18,7 +18,7 @@ export default function Home() {
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    if (phone.length < 15 && phone.length > 0) {
+    if (phone.length < 14 && phone.length > 0) {
        setError(true)
     } else {
       setError(false)
